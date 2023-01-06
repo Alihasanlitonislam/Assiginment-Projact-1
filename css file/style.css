@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    max-width: 90%;
+    margin: auto;
+    background: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    height: 550px;
+}
+.header-pat {
+    text-align: right;
+    padding-top: 187px;
+    padding-right: 30px;
+}
+.heading-title{
+    font-family: 'Seymour One', sans-serif;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.paragraph {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 17px;
+    padding-bottom: 20px;
+    color: #000000b8;
+}
+.btn {
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: none;
+    background: orange;
+    color: black;
+    font-size: 21px;
+}
+/* main details-section */
+.details-section {
+    display: flex;
+    padding: 80px 20px;
+}
+.details-img{
+    text-align:center;            
+
+}
+.details-img img {
+    width: 70%;
+    height: auto;
+}
+.details-title {
+    padding-top: 130px;
+}
+.details-title h1 {
+    padding-bottom: 13px;
+    font-size: 32px;
+    font-family: 'Kanit', sans-serif;
+}
+.details-title p {
+    padding-bottom: 12px;
+    color: #0000009e;
+}
+.details-title li {
+    list-style: none;
+    padding: 3px 0;
+    color: #0000009e;
+}
+.icon-bar{
+    margin-right: 10px;
+    color: rgba(0, 128, 0, 0.568);
+}
+/* section-donar pat css */
+.section-donar{
+    max-width: 90%;
+    margin: auto;
+}
+.section-donar-heading {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 24px;
+    font-family: 'Kanit', sans-serif;
+}
+.sectoin-donar-item {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 55px;
+}
+.section-donar-list {
+    text-align: center;
+}
+.section-donar-list img {
+    width: 50px;
+}
+.section-donar-list {
+    text-align: center;
+}
