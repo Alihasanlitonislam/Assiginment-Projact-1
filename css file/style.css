@@ -36,7 +36,7 @@
     color: black;
     font-size: 21px;
 }
-/* main details-section */
+/* main details-section pat css*/
 .details-section {
     display: flex;
     padding: 80px 20px;
@@ -95,4 +95,85 @@
 }
 .section-donar-list {
     text-align: center;
+}
+/* section-donar-contact pat css*/
+.section-donar-contact {
+    background: url(../images/watch.png),linear-gradient(#0000007a,#00000073);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    padding: 45px 75px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 1px;
+}
+.section-donar-contact h1 {
+    color: white;
+    font-size: 33px;
+    padding-bottom: 17px;
+}
+.contact-btn {
+    padding: 10px 15px;
+    font-size: 20px;
+    color: red;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+/* footer section pat css */
+.footer {
+    background: url(../images/banner/company-2.jpg),linear-gradient(#000000b3,#000000a3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    padding-top: 40px;
+    margin-top: 109px;
+}
+.section-donar.footer-section {
+    display: flex;
+    gap: 20px;
+    padding: 91px 0;
+}
+.footer-section-lest{
+    width: 50%;
+}
+.footer-section-lest h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+.footer-section-lest p {
+    color: white;
+    padding: 10px 30px;
+}
+
+.footer-section-lest a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+.footer-contact{
+    color: red;
+}
+.footer-section-right h3 {
+    color: white;
+    font-size: 33px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.footer-section-right input {
+    padding: 12px 4px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.social-media{
+    padding: 25px 30px;
+}
+.social-media img {
+    padding: 0 3px;
+    width: 36px;
 }
